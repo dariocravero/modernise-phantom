@@ -1,0 +1,15 @@
+{
+  "name": "modernise-phantom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^2.5.3"
+  },
+  "devDependencies": {
+    "browserify": "^15.2.0"
+  },
+  "scripts": {
+    "start": "browserify shim.js > modernise-phantom.js"
+  }
+}
